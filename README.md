@@ -16,3 +16,4 @@ https://huggingface.co/unitary/toxic-bert
 
 All the extension related files are stored in the plugin folder while all the server related files are stored in the other folder.
 ### Please note I have used scroll as an event so results only populates if you scroll up or down.
+### This is being tested for further improvement
