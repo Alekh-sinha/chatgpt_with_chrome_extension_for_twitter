@@ -16,7 +16,7 @@ model = AutoModelForSequenceClassification.from_pretrained("unitary/toxic-bert")
 app = Flask(__name__)
 cors = CORS(app)
 ###################################################
-openai.api_key = "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"
+openai.api_key = "XXXXXXXXenter your keyXXXXXX"
 ###################################################
 class_names=['toxic', 'severe_toxic', 'obscene', 'threat', 'insult','identity_hate']
 def inference(text):
