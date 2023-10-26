@@ -1,4 +1,4 @@
-# chatgpt_with_chrome_extension_for_twitter
+# chatGPT for text Analysis 
 In this repository I have made an effort of integrating chrome extension with chatgpt. This extension performs two tasks
 ## 1. Evaluating each tweets toxicity, sentiment and topics coveerd
 
@@ -8,9 +8,10 @@ In this repository I have made an effort of integrating chrome extension with ch
 
 ![image](https://user-images.githubusercontent.com/22698201/223541816-f98afba1-4281-4095-a0d0-a06405169fc3.png)
 
-
-I have used chatgpt models for grammer, tweets sentiment analysis and topic extraction [Open-AI Examples](https://platform.openai.com/examples) for determining toxicity in the tweet, I have used the following model: [Hugging Face Toxic-BERT Model](https://huggingface.co/unitary/toxic-bert)
+In this project,  I have used two models:
+- chatGPT Model: for validating the grammer, tweets sentiment analysis and topic extraction. For more details refer: [Open-AI Examples](https://platform.openai.com/examples). 
+- BERT Model: for determining toxicity in the tweet. For more details refer: [Hugging Face Toxic-BERT Model](https://huggingface.co/unitary/toxic-bert)
 
 All the extension related files are stored in the plugin folder while all the server related files are stored in the other folder.
-### Please note I have used scroll as an event so results only populates if you scroll up or down.
+### **Note:** I have used scroll as an event so results only populates if you scroll up or down.
 ### This is being tested for further improvement
