@@ -22,6 +22,6 @@ In this project,  we leverage two powerful models to bring you these capabilitie
 
 ### Important Note
 - We've implemented a scroll event mechanism to optimize performance. Results will populate as you scroll up or down your Twitter feed.
-<br></br>
+\
 This project is actively tested and under development, with the goal of continual improvement.
 Feel free to contribute, report issues, or suggest enhancements to make this extension even more valuable for the Twitter community.
